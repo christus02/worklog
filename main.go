@@ -15,7 +15,7 @@ import (
 func main() {
 
 	// Load the ENV variables of this project
-	loadEnv("worklog.env", true)
+	loadEnv("worklog.env", false)
 
 	pingDB()
 
